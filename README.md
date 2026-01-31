@@ -45,6 +45,10 @@ Abaixo está a lista de endpoints disponíveis na API.
 | Remover do Carrinho     | `DELETE`| `/api/cart/remove/<int:product_id>` |      Sim     | Remove um produto do carrinho do usuário.          |
 | Checkout                | `POST` | `/api/cart/checkout`                |      Sim     | Esvazia o carrinho do usuário após a "compra".     |
 
+## Deploy
+
+A API está implantada na AWS (Amazon Web Services) utilizando o serviço Elastic Beanstalk.
+
 ---
 
 *Este README foi gerado com base na análise do código-fonte do projeto.*
